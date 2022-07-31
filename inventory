@@ -1,5 +1,5 @@
 [local]
-base_host ansible_host=localhost ansible_python_interpreter=/usr/bin/python
+base_host ansible_host=localhost ansible_python_interpreter=/usr/bin/python3
  
 [tooling_infra]
 tooling_host ansible_host=localhost
