@@ -1,15 +1,2 @@
 [local]
-base_host ansible_host=localhost ansible_python_interpreter=/usr/bin/python3
- 
-[tooling_infra]
-tooling_host ansible_host=localhost
- 
-[toolingdomain]
- 
-[tooling:children]
-tooling_infra
-toolingdomain
- 
-[localonly:children]
-local
-tooling_infra
+localhost ansible_connection=local ansible_python_interpreter=/usr/bin/
