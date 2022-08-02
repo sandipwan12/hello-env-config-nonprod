@@ -1,2 +1,2 @@
 [localhost]
-localhost ansible_python_interpreter=python
+localhost ansible_python_interpreter=/usr/lib/python2.7/site-packages/ansible
