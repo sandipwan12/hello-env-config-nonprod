@@ -41,7 +41,7 @@ subnet_az_c: subnet-080b8e902a6b0dfab
 # provisioning_profile_name: WealthIntProvisioningInstanceProfile
  
 # Env Name
-tooling_env_name: "nonprod"
+tooling_env_name: {{ tooling_domain }}
  
 # bucket for cloud formation template storage by AWS
 bucket_cf_templates: "cf-templates-70q14nsca76m-ap-south-1"
@@ -49,7 +49,7 @@ bucket_cf_templates: "cf-templates-70q14nsca76m-ap-south-1"
 ## If no bucket is present, it creates a bucket automatically that doesnt have any security standards in place
  
 # General
-tooling_domain: "nonprod"
+tooling_domain: nonprod
 region: "ap-south-1"
  
 # Service Accounts
